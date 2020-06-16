@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## Welkom op mijn portfolio pagina
 
-You can use the [editor on GitHub](https://github.com/JuulBastin/portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Ik zal mezelf eerst even voorstellen. Mijn naam is Juul Bastin en ik ben 20 jaar oud. Ik zit in mijn eerste jaar van de opleiding Communication and Multimedia Design aan Zuyd Hogeschool Maastricht. Hier leer ik van alles. Van onderzoek doen tot het coderen van een site. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Dit ben ik een tijd terug toen ik op vakantie was met een vriend.
 
-### Markdown
+![Ik in Valencia](/Valencia.jpg)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Tijdens mijn opleiding heb ik een aantal werken gemaakt. Hieronder zijn er een aantal te vinden:
+* http://student-1738097bast.mamdt.com/11-whole-task/
+* http://student-1738097bast.mamdt.com/12-whole-task/
 
-```markdown
-Syntax highlighted code block
+Om snel naar mijn profielpagina te gaan kan je op het onderstaande logo klikken.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JuulBastin/portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Octocat](Octocat.png "https://github.com/JuulBastin")
