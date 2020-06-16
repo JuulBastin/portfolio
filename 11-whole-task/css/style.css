@@ -1,0 +1,609 @@
+body{
+  font-size: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header{
+  width: 100%;
+}
+
+#headermetfoto{
+  width: 100%;
+  height: 250px;
+  background-image: url(../img/mixing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+@media all and (max-width: 950px){
+  #headermetfoto{
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 680px){
+  #headermetfoto{
+    height: 150px;
+  }
+}
+
+video{
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+}
+
+.middennav :not(#hamburgerbox){
+  text-align: center;
+  margin: auto;
+  padding-top: 3%;
+}
+
+#navartikelpagina{
+  padding-top: 40px;
+}
+
+#aopmaak{
+  font-family: proxima-soft, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.hover:hover {
+  zoom: 1.05;
+}
+
+.hoveropacity:hover {
+  opacity: 0.7;
+}
+
+.anav{
+  font-family: proxima-soft, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media all and (max-width: 950px){
+  .anav {
+    display: none;
+  }
+}
+
+li{
+  display: inline-block;
+}
+
+.linav{
+  padding-right: 80px;
+}
+
+#headerlogo{
+  width: 26%;
+  float: left;
+  margin-left: 37%;
+  margin-top: 20%;
+}
+
+@media all and (max-width: 950px){
+  #headerlogo {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+}
+
+#headerlogoartikelpagina{
+  width: 300px;
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+}
+
+@media all and (max-width: 950px){
+  #headerlogoartikelpagina{
+   width: 40%;
+  }
+}
+
+#arrowdown{
+  width: 4.3%;
+  float: left;
+  margin-left: 46%;
+  margin-top: 5%;
+}
+
+@media all and (max-width: 950px){
+  #arrowdown {
+   width: 8%;
+  }
+}
+
+#afstand{
+  width: 100%;
+  height: 1px;
+  float: left;
+  margin-top: 13.9%;
+}
+
+#hamburgerbox{
+ display: inline;
+ padding-left: 10%;
+}
+
+#hamburgerboxartikelpagina{
+position: absolute;
+margin-left: 6%;
+padding-top: 6%;
+}
+
+#hamburger{
+  width: 9vw; 
+}
+
+@media all and (min-width: 950px){
+  #hamburger {
+    display: none;
+  }
+}
+
+
+
+
+main{
+  clear: both;
+}
+
+h1{
+  font-size: 1em;
+  font-family: proxima-soft, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 950px){
+  h1 {
+    font-size: 0.85em;
+  }
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: proxima-soft, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3{
+  font-size: 0.8em;
+  font-family: proxima-soft, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding-bottom: 3%;
+}
+
+
+p{
+  font-size: 0.75em;
+  font-family: proxima-soft, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 30px;
+}
+
+@media all and (max-width: 950px){
+  p {
+    font-size: 0.65em;
+  }
+}
+
+
+@media all and (max-width: 600px){
+  p {
+    font-size: 0.6em;
+    font-weight: 300;
+  }
+}
+
+.titeltekst{
+  width: 60%;
+  padding-bottom: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+@media all and (max-width: 950px){
+  .titeltekst{
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 950px){
+  .titeltekst, #standaardtitelgrijs{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+}
+
+.kortetekstwit{
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#overons{
+  padding-top: 15%;
+  color: #3A3B3C;
+}
+
+.standaardtitelgrijs{
+  padding-top: 7%;
+  padding-bottom: 5%;
+  color: #3A3B3C;
+}
+
+#uitgelicht1{
+  width: 720px;
+  height: fit-content;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media all and (max-width: 950px){
+  #uitgelicht1{
+  margin-top: 15%;
+  max-width: 70%;
+  height: fit-content;
+  }
+}
+
+@media all and (max-width: 530px){
+  #uitgelicht1{
+  margin-top: 30%;
+  margin-bottom: 15%;
+  max-width: 70%;
+  height: fit-content;
+  }
+}
+
+#portret{
+  position:absolute;
+  width: 240px;
+  height: 240px;
+  border-radius: 100%; 
+  margin-top: -120px;
+}
+
+@media all and (max-width: 950px){
+  #portret{
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 530px){
+  #portret{
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    margin-left: -10%;
+  }
+}
+
+#uitgelicht2{
+  width: 600px;
+  height:260px;
+  background-color: #3A3B3C;
+  position: relative;
+  z-index: -1;
+  margin-left: 120px;
+}
+
+@media all and (max-width: 950px){
+  #uitgelicht2{
+  width: auto;
+  height: 300px;
+  margin-left: 80px;
+  }
+}
+
+@media all and (max-width: 530px){
+  #uitgelicht2{
+    width: auto;
+    margin-left: 0px;
+    height: 380px;
+  }
+}
+
+#uitgelichttekst{
+  width: 460px;
+  height: 130px;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 90px;
+}
+
+@media all and (max-width: 950px){
+  #uitgelichttekst{
+  max-width: 80%;
+  margin-top: 90px;
+  margin-left: 10%;
+  }
+}
+
+#horizontaalscrollen{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar{
+  height: 4px;
+  width: 4px;
+}
+::-webkit-scrollbar-thumb{
+  background: #3A3B3C;
+  border-radius: 10px;
+}
+
+.recentartikelscrol{
+  display: inline-block;
+  padding-left: 100px;
+  width: 720px;
+  height: 300px;
+  margin: auto;
+}
+
+@media all and (max-width: 950px){
+  .recentartikelscrol{
+    zoom: 0.6;
+  }
+}
+
+.fotoklein{
+  float: left;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%; 
+}
+
+.recenttekstblok{
+  width: 540px;
+  height:200px;
+  background-color: #3A3B3C;
+  position: relative;
+  white-space: normal;
+  z-index: -1;
+  left: 90px;
+  top: 90px;
+}
+
+.recenttekst{
+  width: 440px;
+  height: 120px;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+@media all and (max-width: 950px){
+  .groterep{
+    font-size: 0.8em;
+  }
+}
+
+button{
+  border: none;
+  background-color: transparent;
+}
+
+#buttonalleartikelen{
+  background-color: #3A3B3C;
+  margin: 4% 0% 4% 0%;
+  width: 260px;
+  height: 60px; 
+  font-size: 1em;
+  text-decoration-color: #FFFFFF;
+  font-family: proxima-soft, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 950px){
+  #buttonalleartikelen {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 0.9em;
+  }
+}
+
+#buttonpageup{
+  width: 150px;
+  margin-bottom: 3%;
+}
+
+#artikelwholetask{
+  padding: 6% 8% 5% 8%;
+}
+
+#inleiding{
+  padding: 0% 0% 3% 0%;
+  text-align: center;
+  max-width: 600px;
+}
+
+#dikgedrukt{
+  font-weight: 500;
+}
+
+.afstandtitelklein{
+  padding: 7% 0% 2% 0%;
+}
+
+.afstandtitelgroot{
+  padding: 0% 0% 12% 0%;
+}
+
+.afstandartikelenrechts :not(#citaattekst){
+  max-width: 600px;
+}
+
+#break {
+  word-break: break-all;
+}
+
+.kleinedikketekst{
+  font-weight: 500;
+  font-size: 0.5em;
+  line-height: 20px;
+}
+
+.hoogtetekst{
+  line-height: 35px;
+}
+
+@media all and (max-width: 600px){
+  .hoogtetekst {
+    line-height: 25px;
+  }
+}
+
+#fotorondjeartikel{
+  border-radius: 100%; 
+  height: 300px;
+  width: 300px;
+  margin: 2% 4% 3% 0%;
+}
+
+@media all and (max-width: 720px){
+  #fotorondjeartikel {
+    margin: 10% 7% 8% 0%;
+  }
+}
+
+#citaat{
+  max-width: 500px;
+  padding: 8% 0% 8% 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quotemarkleft{
+  display: inline-block;
+  width: 25px;
+  margin: 0px 15px 0px 15px;
+}
+
+.quotemarkright{
+  display: inline-block;
+  width: 25px;
+  margin: 0px 15px 0px 15px;
+  transform: rotate(180deg);
+}
+
+#afstandbenjamin{
+  padding-left: 40px;
+}
+
+#regie{
+  padding: 8% 0% 8% 0%;
+  width: 100%;
+}
+
+.linkartikel{
+  color: black;
+}
+
+
+
+footer{
+  background-color: #3A3B3C;
+  height: 150px;
+}
+
+@media all and (max-width: 950px){
+  footer {
+    height: 210px;
+  }
+}
+
+#contactblok{
+  height: 80px;
+  width: 350px;
+  padding-top: 40px;
+}
+
+#contact{
+  color: #FFFFFF;
+  padding-bottom: 15px;
+}
+
+#adres{
+  color: #FFFFFF;
+  font-size: 0.7em;
+}
+
+.midden{
+  text-align: center;
+  margin: auto;
+}
+
+#middenartikelpagina{
+    padding-top: 6%;
+}
+
+#iconsblok{ 
+  float: right;
+  width: 165px;
+  margin-top: -55px;
+  margin-right: 5%;
+}
+
+@media all and (max-width: 950px){
+  #iconsblok {
+    float: none;
+    margin: auto;
+    width: 165px;
+    margin-top: 28px;
+  }
+}
+
+.icons{
+  height: 25px;
+}
+
+.icons1{
+  margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
