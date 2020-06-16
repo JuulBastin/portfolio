@@ -12,4 +12,4 @@ Tijdens mijn opleiding heb ik een aantal werken gemaakt. Hieronder zijn er een a
 
 Om snel naar mijn profielpagina te gaan kan je op het onderstaande logo klikken.
 
-![Octocat](Octocat.png "https://github.com/JuulBastin")
+[![Octocat](Octocat.png)](https://github.com/JuulBastin)
